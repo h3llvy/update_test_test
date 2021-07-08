@@ -1,0 +1,142 @@
+body {
+    background: #EAEAEA;
+    font-family: 'Montserrat';
+}
+
+.all {
+    box-sizing: content-box;
+    background: #F1F1F1;
+    margin: 20px 19% 0 19%;
+    position: center;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+header {
+
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+
+}
+
+nav {
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: stretch;
+}
+
+.__nav_buttons {
+    display: inline;
+}
+
+button {
+    border: none;
+    color: #fff;
+    background: #222222;
+    padding: 6px;
+    margin: 15px 8px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+header button {
+
+    float: right;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    display: inline-block;
+}
+
+h1:hover {
+    cursor: pointer;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+main {
+    text-align: justify;
+    margin: 10px 10px 0 10px;
+}
+
+.profile {
+
+    display: flex;
+    justify-content: center;
+}
+
+.profile li {
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    font-size: 38px;
+    list-style-type: none;
+    margin: 10px;
+}
+
+
+.__photo {
+    /*display: inline;*/
+}
+
+.info_user {
+    /*display: inline-block;*/
+}
+
+.info {
+    float: left;
+}
+
+.right {
+    text-align: right;
+}
+
+#users {
+    margin: 0 5%;
+}
+#users td, th{
+    padding: 5px 40px 0 0;
+}
+#users th, td:hover{
+    cursor: pointer;
+}
+footer {
+    color: white;
+    background: #222222;
+    padding: 5px 15px 0 15px;
+}
+.__active_email{
+    background: red;
+}
+.__active_email:hover{
+    cursor: pointer;
+    background: #00f6da;
+}
+.blue{
+    background: #00f6da;
+}
+.blue:hover{
+    cursor: default;
+}
+
+.green {
+    background: limegreen;
+}
+
+
+.green:hover{
+    cursor: default;
+    background: limegreen;
+}
+.hide {
+    display: none;
+}
+/*.text-xs-center {*/
+/*    text-align: center;*/
+/*}*/
+
+/*.g-recaptcha {*/
+/*    display: inline-block;*/
+/*}*/
